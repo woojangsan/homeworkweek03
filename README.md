@@ -1,5 +1,7 @@
 # homeworkweek03
 springboot
+
+
 1. 수정, 삭제 API의 request를 어떤 방식으로 사용하셨나요? (param, query, body)
 -주소에 변수가 포함된 param이라는 방식을 사용했습니다. 주소 바깥에 변수를 포함하는 쿼리나 주소에서 확인할 수 없는 바디는 사용하지 않았습니다.
 

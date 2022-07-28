@@ -16,3 +16,7 @@ springboot
 
 5. 작성한 코드에서 빈(Bean)을 모두 찾아보세요!
 -
+
+
+https://oxorr0424.tistory.com/9 
+-유스 케이스 및 API설계

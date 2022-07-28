@@ -15,7 +15,7 @@ springboot
 -Controller에서 Service의 정보를 요청받고 Service에서는 Repo의 정보를 요청받도록 분리했습니다. 
 
 5. 작성한 코드에서 빈(Bean)을 모두 찾아보세요!
--
+-PostingRepository, PostingService, PostingRestController
 
 
 https://oxorr0424.tistory.com/9 

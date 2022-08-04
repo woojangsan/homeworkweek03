@@ -39,11 +39,6 @@ public class Posting extends Timestamped{
 
     }
 
-
-    public Posting(PasswordRequestDto requestDto) {
-        this.password = requestDto.getPassword();
-    }
-
     public void update(PostingRequestDto requestDto) {
         this.content = requestDto.getContent();
     }

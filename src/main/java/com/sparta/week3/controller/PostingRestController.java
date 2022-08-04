@@ -1,6 +1,5 @@
 package com.sparta.week3.controller;
 
-import com.sparta.week3.models.PasswordRequestDto;
 import com.sparta.week3.models.Posting;
 import com.sparta.week3.models.PostingRepository;
 import com.sparta.week3.models.PostingRequestDto;
@@ -52,7 +51,7 @@ public class PostingRestController {
 
 
     @PostMapping("/api/postings/{id}")
-    public boolean createPassword(@PathVariable Long id, @RequestBody PasswordRequestDto requestDto) {
+    public boolean createPassword(@PathVariable Long id, @RequestBody PostingRequestDto requestDto) {
         Posting posting = postingRepository.findById(id).orElseThrow(
                 () -> new NullPointerException("게시글이 없습니다.")
         );
